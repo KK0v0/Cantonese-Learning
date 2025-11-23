@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-HK">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>學廣東話 | 自我溫習</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>學廣東話</h1>
+      <div class="header-actions">
+        <button id="voice-refresh">重新載入語音</button>
+        <label>
+          語音：
+          <select id="voice-select"></select>
+        </label>
+      </div>
+    </header>
+
+    <main>
+      <section class="lesson-controls">
+        <label>
+          課程：
+          <select id="lesson-select"></select>
+        </label>
+      </section>
+
+      <section id="support-warnings" class="support-warnings"></section>
+
+      <section id="cards" class="cards"></section>
+    </main>
+
+    <footer class="app-footer">
+      <small>提示：使用支援《語音合成》嘅瀏覽器可獲更好讀音體驗（建議選擇語音為 zh-HK）。</small>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+  </html>
